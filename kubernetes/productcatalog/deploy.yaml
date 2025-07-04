@@ -31,7 +31,7 @@ spec:
       serviceAccountName: opentelemetry-demo
       containers:
         - name: productcatalogservice
-          image: ${{ secrets.DOCKER_USERNAME }}/product-catalog:${{github.run_id}}
+          image: rituja101/product-catalog:16068301061
           imagePullPolicy: IfNotPresent
           ports:
             
